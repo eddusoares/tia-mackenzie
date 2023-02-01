@@ -1,0 +1,362 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Cormorant Upright';
+    src: url('Cormorant_Upright/CormorantUpright-Light.ttf') format('truetype'),
+         url('Cormorant_Upright/CormorantUpright-Medium.ttf') format('truetype'),
+         url('Cormorant_Upright/CormorantUpright-Regular.ttf') format('truetype'),
+				 url('Cormorant_Upright/CormorantUpright-SemiBold.ttf') format('truetype'),
+         url('Cormorant_Upright/CormorantUpright-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Signika';
+    src: 
+		url('Signika/Signika-Regular.ttf') format('truetype'),
+		url('Signika/Signika-Bold.ttf') format('truetype'),
+		url('Signika/Signika-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Signika Light';
+    src: url('Signika/Signika-Light.ttf') format('truetype');
+    src: 
+		url('Raleway/Raleway-Regular.ttf') format('truetype'),
+		url('Raleway/Raleway-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('Open_Sans/opensans-regular-webfont.eot');
+    src: url('Open_Sans/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Open_Sans/opensans-regular-webfont.woff2') format('woff2'),
+         url('Open_Sans/opensans-regular-webfont.woff') format('woff'),
+         url('Open_Sans/opensans-regular-webfont.ttf') format('truetype'),
+         url('Open_Sans/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+     font-family:'PathwayGothicOneRegular';
+    src:url(Pathway_Gothic_One/pathwaygothicone-regular.eot);
+    src:url(Pathway_Gothic_One/pathwaygothicone-regular.eot) format('embedded-opentype'),url(Pathway_Gothic_One/pathwaygothicone-regular.woff) format('woff'),url(Pathway_Gothic_One/pathwaygothicone-regular.ttf) format('truetype'),url(Pathway_Gothic_One/pathwaygothicone-regular.svg#PathwayGothicOneRegular) format('svg');
+}
+ @font-face {
+     font-family:'OxygenRegular';
+    src:url(Oxygen/oxygen-regular.eot);
+    src:url(Oxygen/oxygen-regular.eot) format('embedded-opentype'),url(Oxygen/oxygen-regular.woff) format('woff'),url(Oxygen/oxygen-regular.ttf) format('truetype'),url(Oxygen/oxygen-regular.svg#OxygenRegular) format('svg');
+}
+ @font-face {
+     font-family:'OswaldLight';
+    src:url(Oswald/oswald-light.eot);
+    src:url(Oswald/oswald-light.eot) format('embedded-opentype'),url(Oswald/oswald-light.woff) format('woff'),url(Oswald/oswald-light.ttf) format('truetype'),url(Oswald/oswald-light.svg#OswaldLight) format('svg');
+}
+ @font-face {
+     font-family:'OswaldBold';
+    src:url(Oswald/oswald-bold.eot);
+    src:url(Oswald/oswald-bold.eot) format('embedded-opentype'),url(Oswald/oswald-bold.woff) format('woff'),url(Oswald/oswald-bold.ttf) format('truetype'),url(Oswald/oswald-bold.svg#OswaldBold) format('svg');
+}
+ @font-face {
+     font-family:'OswaldRegular';
+    src:url(Oswald/oswald-regular.eot);
+    src:url(Oswald/oswald-regular.eot) format('embedded-opentype'),url(Oswald/oswald-regular.woff) format('woff'),url(Oswald/oswald-regular.ttf) format('truetype'),url(Oswald/oswald-regular.svg#OswaldRegular) format('svg');
+}
+ @font-face {
+     font-family:'OpenSansCondensedBold';
+    src:url(Open_Sans_Condensed/opensans-condbold.eot);
+    src:url(Open_Sans_Condensed/opensans-condbold.eot) format('embedded-opentype'),url(Open_Sans_Condensed/opensans-condbold.woff) format('woff'),url(Open_Sans_Condensed/opensans-condbold.ttf) format('truetype'),url(Open_Sans_Condensed/opensans-condbold.svg#OpenSansCondensedBold) format('svg');
+}
+ @font-face {
+     font-family:'OpenSansCondensedLight';
+    src:url(Open_Sans_Condensed/opensans-condlight.eot);
+    src:url(Open_Sans_Condensed/opensans-condlight.eot) format('embedded-opentype'),url(Open_Sans_Condensed/opensans-condlight.woff) format('woff'),url(Open_Sans_Condensed/opensans-condlight.ttf) format('truetype'),url(Open_Sans_Condensed/opensans-condlight.svg#OpenSansCondensedLight) format('svg');
+}
+ @font-face {
+     font-family:OpenSansCondensedLightItalic;
+    src:url(Open_Sans_Condensed/opensans-condlightitalic.eot);
+    src:url(Open_Sans_Condensed/opensans-condlightitalic.eot) format('embedded-opentype'),url(Open_Sans_Condensed/opensans-condlightitalic.woff) format('woff'),url(Open_Sans_Condensed/opensans-condlightitalic.ttf) format('truetype'),url(Open_Sans_Condensed/opensans-condlightitalic.svg#OpenSansCondensedLightItalic) format('svg');
+}
+ @font-face {
+     font-family:'HandleeRegular';
+    src:url(Handlee/handlee-regular.eot);
+    src:url(Handlee/handlee-regular.eot) format('embedded-opentype'),url(Handlee/handlee-regular.woff) format('woff'),url(Handlee/handlee-regular.ttf) format('truetype'),url(Handlee/handlee-regular.svg#HandleeRegular) format('svg');
+}
+ @font-face {
+     font-family:'VAGRoundedStdThinBold';
+    src:url(VAG/vagroundedstd-bold-webfont.eot);
+    src:url(VAG/vagroundedstd-bold-webfont.eot?#iefix) format('embedded-opentype'),url(VAG/vagroundedstd-bold-webfont.woff) format('woff'),url(VAG/vagroundedstd-bold-webfont.ttf) format('truetype'),url(VAG/vagroundedstd-bold-webfont.svg#VAGRoundedStdThinBold) format('svg');
+    font-weight:400;
+    font-style:normal;
+}
+ @font-face {
+     font-family:'VAGRoundedStdLightRegular';
+    src:url(VAG/vagroundedstd-light-webfont.eot);
+    src:url(VAG/vagroundedstd-light-webfont.eot?#iefix) format('embedded-opentype'),url(VAG/vagroundedstd-light-webfont.woff) format('woff'),url(VAG/vagroundedstd-light-webfont.ttf) format('truetype'),url(VAG/vagroundedstd-light-webfont.svg#VAGRoundedStdLightRegular) format('svg');
+    font-weight:400;
+    font-style:normal;
+}
+ @font-face {
+     font-family:'VAGRoundedStdThinRegular';
+    src:url(VAG/vagroundedstd-thin-webfont.eot);
+    src:url(VAG/vagroundedstd-thin-webfont.eot?#iefix) format('embedded-opentype'),url(VAG/vagroundedstd-thin-webfont.woff) format('woff'),url(VAG/vagroundedstd-thin-webfont.ttf) format('truetype'),url(VAG/vagroundedstd-thin-webfont.svg#VAGRoundedStdThinRegular) format('svg');
+    font-weight:400;
+    font-style:normal;
+}
+ @font-face {
+     font-family:'DeckerRegular';
+    src:url(DeckerRegular/decker-webfont.eot) format("opentype");
+    src:url(DeckerRegular/decker-webfont.svg#DeckerRegular) format('svg'),url(DeckerRegular/decker-webfont.eot?#iefix) format('embedded-opentype'),url(DeckerRegular/decker-webfont.woff) format('woff'),url(DeckerRegular/decker-webfont.ttf) format('truetype');
+    font-weight:400;
+    font-style:normal;
+}
+ @font-face {
+     font-family:'BebasNeueRegular';
+    src:url(BebasNeue/BebasNeue-webfont.eot);
+    src:url(BebasNeue/BebasNeue-webfont.svg#BebasNeueRegular) format('svg'),url(BebasNeue/BebasNeue-webfont.eot?#iefix) format('embedded-opentype'),url(BebasNeue/BebasNeue-webfont.woff) format('woff'),url(BebasNeue/BebasNeue-webfont.ttf) format('truetype');
+    font-weight:400;
+    font-style:normal;
+}
+
+
+
+h3 small,
+h4 small,
+h5 small {
+  font-family: 'Open Sans';
+  font-weight: 300;
+  color: #444;
+}
+legend {
+    text-align: center;
+    font-family: Signika,Arial,sans-serif;
+    font-stretch: normal;
+    font-size: 30px;
+    color: #666;
+    font-smooth: auto;
+    border-bottom: #EEE solid 1px;
+    padding-bottom: 5px;
+}
+
+.titulo50 {
+    font-family: VAGRoundedStdThinBold,Arial,sans-serif;
+    font-size: 50px;
+} 
+
+.titulo40 {
+    font-family: VAGRoundedStdThinBold,Arial,sans-serif;
+    font-size: 40px;
+}
+
+.titulo25 { 
+    font-family: VAGRoundedStdThinBold,Arial,sans-serif;
+    font-size: 25px;
+}
+
+.titulo30,sup {
+    font-family: VAGRoundedStdThinBold,Arial,sans-serif !important;
+    font-size: 30px !important;
+}
+
+.titulo20 {
+    font-family: VAGRoundedStdThinBold,Arial,sans-serif !important;
+    font-size: 20px !important;
+}
+
+
+.titulo10 {
+    font-family: VAGRoundedStdThinBold,Arial,sans-serif !important;
+    font-size: 10px !important;
+}
+
+
+
+.titulo15 {
+    font-family: VAGRoundedStdThinBold,Arial,sans-serif !important;
+    font-size: 15px !important;
+}
+
+.titulo12 {
+    font-family: VAGRoundedStdThinBold,Arial,sans-serif !important;
+    font-size: 12px !important;
+}
+
+.branco,.white {
+    color: #FFF!important;
+}
+
+.verde {
+    color: #090!important;
+}
+
+h1.titulo {
+    font-family: BebasNeueRegular,Arial,sans-serif;
+    font-size: 55px;
+    font-weight: 400;
+    font-smooth: always;
+		line-height: 1 !important;
+}
+ 
+@media screen and (max-width:580px) {
+	.size45 { font-size: 25px !important; }
+	.size40 { font-size: 25px !important; }
+	.size35 { font-size: 20px !important; }
+	.size30 { font-size: 20px !important; }
+	.size25 { font-size: 20px !important; }
+	.size20 { font-size: 15px !important; }
+	.size15 { font-size: 15px !important; }
+	.size12 { font-size: 10px !important; }
+	.size10 { font-size: 10px !important; } 
+}
+
+.size45 { font-size: 45px; }
+.size40 { font-size: 40px; }
+.size35 { font-size: 35px; }
+.size30 { font-size: 30px; }
+.size25 { font-size: 25px; }
+.size20 { font-size: 20px; }
+.size15 { font-size: 15px; }
+.size12 { font-size: 12px; }
+.size10 { font-size: 10px; } 
+
+ 
+h1.vinte {
+    font-family: VAGRoundedStdThinBold;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+h1.trinta {
+    font-family: VAGRoundedStdThinBold;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+h1.quarenta {
+    font-family: VAGRoundedStdThinBold;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+h1.decker {
+    font-family: DeckerRegular,Arial,sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #8780A2;
+}
+
+h2.decker {
+    font-family: DeckerRegular,Arial,sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #393;
+}
+
+h3.decker {
+    font-family: DeckerRegular,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ff7e00;
+    line-height: 23px;
+}
+
+h1.fonte {
+    font-family: OpenSansCondensedLight,Arial,sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+h1.total {
+    font-family: OpenSansCondensedLight,Arial,sans-serif;
+    color: #666;
+    line-height: 20px;
+    margin: 5px 0;
+    font-size: 25px;
+    font-weight: 400;
+    font-smooth: always;
+    text-shadow: 0 0 1px rgba(0,0,0,.3);
+}
+
+h2.tabletr {
+    font-family: VAGRoundedStdThinBold,Arial,sans-serif;
+    color: #666;
+    font-size: 20px;
+    font-weight: 400;
+    font-smooth: always;
+    line-height: 15px;
+    margin: 15px 0 5px;
+}
+
+h1,h2,h3,h4,h5 {
+    display: inline;
+}
+
+.tituloGeralVerde {
+    width: 80%;
+    font-family: VAGRoundedStdThinBold,Arial,sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+    padding: 15px 20px 10px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background: #093;
+    transition-duration: .3s,.3s;
+    -webkit-transition-duration: 1s,.3s;
+    text-shadow: -1.5px -1.5px 2px #063;
+    margin-bottom: 40px!important;
+}
+
+
+
+.base {
+		position:fixed !important;
+		left: 67px !important;
+		top: 37px;
+		z-index:999999999999999999999999;
+}
+
+.baseDoServidor {
+    font-family: VAGRoundedStdThinBold,Arial,sans-serif;
+    font-size: 10px;
+    text-align: center;
+    color: #fff;
+    padding: 3px 5px 3px 5px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background: #900;
+    -webkit-animation-name: redToGreen;  
+    -webkit-animation-iteration-count: infinite;  
+    -webkit-animation-duration: 2s;
+	position:fixed;
+	top:50px !important;
+	right: 20px !important;
+		 
+}
+
+@-webkit-keyframes redToGreen {
+  0% { background-color: #900; }
+  50% { background-color: #900; }
+  51% { background-color: #090; }
+  100% { background-color: #090; }
+	transition: all 0.5s ease; 
+}
+
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	@font-face {
+        font-family: VAGRoundedStdThinBold;
+        src: url(VAG/vagroundedstd-bold-webfont.svg) format('svg');
+  }
+	@font-face {
+        font-family: OswaldRegular;
+        src: url(Oswald/oswald-regular.svg) format('svg');
+    }
+	
+	@font-face {
+        font-family: OswaldLight;
+        src: url(Oswald/oswald-light.svg) format('svg');
+    }
+}

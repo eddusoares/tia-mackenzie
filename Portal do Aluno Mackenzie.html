@@ -1,0 +1,167 @@
+
+<!-- saved from url=(0040)https://www3.mackenzie.br/tia/index2.php -->
+<html style=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>
+sup{
+	font-size:30px;
+	font-weight:bold;
+}
+</style>
+
+
+	
+    
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+		<meta name="description" content="Portal do Aluno Mackenzie">
+    <meta name="keywords" content="Notas, Faltas, Datas Provas, consultas">
+
+		<title>Portal do Aluno Mackenzie</title>
+
+		<script src="./Portal do Aluno Mackenzie_files/jquery-2.0.3.min.js" type="text/javascript"></script><link href="./Portal do Aluno Mackenzie_files/bootstrap.min.css" rel="stylesheet" type="text/css"><link href="./Portal do Aluno Mackenzie_files/font-awesome.min.css" rel="stylesheet" type="text/css"><link href="./Portal do Aluno Mackenzie_files/fonts.css" rel="stylesheet" type="text/css"><link href="./Portal do Aluno Mackenzie_files/layout.css" rel="stylesheet" type="text/css"><link href="./Portal do Aluno Mackenzie_files/layout(1).css" rel="stylesheet" type="text/css"><script src="./Portal do Aluno Mackenzie_files/bootstrap.min.js" type="text/javascript"></script><link href="./Portal do Aluno Mackenzie_files/css" rel="stylesheet"><link rel="stylesheet" href="./Portal do Aluno Mackenzie_files/menu.css"><link rel="stylesheet" href="./Portal do Aluno Mackenzie_files/fonts(1).css"><script src="./Portal do Aluno Mackenzie_files/css3-mediaqueries.js" type="text/javascript"></script>
+		<script>
+    $(document).ready(function() {
+      var detectViewPort = function(){
+				var viewPortWidth = $(window).width();
+				if (viewPortWidth >= 600 && viewPortWidth <= 1024){
+					$(".avisos").removeClass("col-md-6").addClass("col-xs-6");
+					$(".tamanhoTopo").removeClass("col-xs-8 col-xs-offset-2").addClass("col-md-12");
+				}	else if(viewPortWidth > 1024) { 
+					$(".avisos").removeClass("col-md-6").addClass("col-xs-6");
+					$(".tamanhoTopo").removeClass("col-md-12").addClass("col-xs-8 col-xs-offset-2");
+				}	else {
+					$(".avisos").removeClass("col-xs-6").addClass("col-md-6");
+				}
+      };
+      $(function(){
+        detectViewPort();
+      });
+      
+      $(window).resize(function () {
+         detectViewPort();
+      });	
+    });
+    </script>
+	</head>
+
+
+  <body style="">
+    <div id="wrap">
+      <div id="topo">
+        <div class="container-fluid"><br>
+        	<div class="row">
+            <div class="col-md-10">
+              <a href="https://www3.mackenzie.br/tia/index2.php"><div class="logotia"></div></a>
+            </div> 
+            <div class="col-md-2" style="padding-top:20px;">
+							            
+              <div class="btn-group btn-block">
+                <button type="button" class="btn btn-danger btn-block dropdown-toggle" data-toggle="dropdown" aria-expanded="false">&nbsp;
+                  <span class="fa fa-power-off"></span>&nbsp;&nbsp;SAIR&nbsp;&nbsp;<span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="https://www3.mackenzie.br/tia/logout.php?s=1">Sair </a></li>
+                                  </ul>
+              </div>  
+                          </div>  
+          </div><br>
+          
+          
+	<div class="nav">
+		<input type="checkbox" id="toggle">
+		<label for="toggle" class="toggle" onclick=""><i class="fa fa-bars"></i></label>
+		<ul class="menu">
+			<li><a href="https://www3.mackenzie.br/tia/index2.php"><i class="fa fa-home fa-lg m"></i></a></li>
+			<li>
+				<a href="https://www3.mackenzie.br/tia/faltasChamada.php">frequência
+				</a>
+			</li>
+			
+			<li><a href="https://www3.mackenzie.br/tia/notasChamada.php">notas</a></li>
+			<li><a href="https://www3.mackenzie.br/tia/horarChamada.php">horários</a></li>
+			<li><a href="https://www3.mackenzie.br/tia/datasChamada.php">datas provas</a></li>
+			<li><a href="https://www3.mackenzie.br/tia/finanChamada.php">situação financeira</a></li>
+			<li><a href="https://www3.mackenzie.br/tia/decPag.php">declaração de valores</a></li>
+			<li><a href="https://www3.mackenzie.br/tia/acordoFinanChamada.php">acordo financeiro</a></li>
+			<li><a href="https://www3.mackenzie.br/acadsecg/upmhab/habilitacao2.php" target="_top">habilitação</a></li><li><a href="https://www3.mackenzie.br/template/templateNew/rest/servicos/aluno/prova-online/?d=QPjnHYv0XxX9NLnWXewAmH0MXbe4FPQ0FSU5ibLCmBLfPtQGRbLImSwbLeYAmPQGFBUtNPCbmxmAmPCcL7LUmSMCZjMvHxMOFLCemPXCFgoIPCYgSg0GZjQ9Xxm">prova integrada</a></li><li><a href="https://www3.mackenzie.br/tia/bpm/index.php">solicitação de documentos</a></li> 
+			<li><a href="https://www.mackenzie.br/aluno-e-antigo-aluno/setor-de-bolsas/" target="_blank">bolsa inf.</a></li>
+			<li><a href="https://www3.mackenzie.br/tia/bolsasChamada.php">bolsa situação</a></li><li><a href="http://www.mackenzie.br/calendario_aulas.html" target="_blank">calendário</a></li><li><a href="https://www.mackenzie.br/aluno-e-antigo-aluno/moodle/moodle" target="_blank">moodle</a></li><li><a href="https://www3.mackenzie.br/processos/geraProcesso.php">requerimentos</a></li><li><a href="https://www3.mackenzie.br/tia/proato" target="_blank">proato - inclusão</a></li>
+	</ul>
+	</div><div class="nav"><input type="checkbox" id="toggle2"><label for="toggle2" class="toggle2" onclick=""></label><ul class="menu2">
+		<li><a href="https://www3.mackenzie.br/tia/cadastroChamada.php">cadastro</a></li>
+		<li><a href="https://www3.mackenzie.br/tia/curricChamada.php">currículo</a></li>
+		<li><a href="https://www3.mackenzie.br/tia/historChamada.php">histórico</a></li>
+		<li><a href="https://www3.mackenzie.br/tia/formemailChamada.php">biblioteca</a></li>
+		<li><a href="http://www.mackenzie.br/coi.html" target="_blank">oportunidade de intercâmbio - COI</a></li>
+		<li><a href="https://www3.mackenzie.br/tia/arquivos/pdf/guia_mack.pdf" target="_blank">guia trabalhos acadêmicos</a></li>
+		<li><a href="https://www3.mackenzie.br/tia/emailChamada.php">sugestões</a></li>
+		<li><a href="https://www.mackenzie.br/universidade/ouvidoria">escreva para a Ouvidoria</a></li>
+		<li><a href="https://www3.mackenzie.br/tia/senha/index.php" target="_blank">alterar senha</a></li>
+		<li><a href="http://gerti.mackenzie.br/tutoriais" target="_blank">Helpdesk</a></li></ul></div>
+            <div class="row">
+              <div class="col-md-12"></div>
+            </div>
+            <div class="row">
+              <div class="col-md-12"></div>
+            </div><hr>
+            
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <center>
+              <b class="size25" style="color:#e4022d;">31586831 - EDUARDO NUNES SOARES DE LIMA</b><br>
+              <h1 class="size20" style="color:#900;">
+                Faculdade De Computacao E Informatica - Ciencia Da Computacao
+              </h1>
+              </center>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">		<script src="./Portal do Aluno Mackenzie_files/validate.js" type="text/javascript"></script>
+		<script src="./Portal do Aluno Mackenzie_files/campos.js" type="text/javascript"></script>
+		<script src="./Portal do Aluno Mackenzie_files/jquery.maskedinput-1.2.2.js" type="text/javascript"></script>
+		<link href="./Portal do Aluno Mackenzie_files/screen.css" rel="stylesheet" type="text/css" media="screen">		
+
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2">
+			<div class="col-md-6"></div>
+				<div class="col-md-12">
+					<div class="divRound">
+						<center>
+							<a href="http://outlook.com/mackenzie.br" target="_blank" class="outlook">
+							<img src="./Portal do Aluno Mackenzie_files/logoOutlookAcesso.png"></a>
+						</center>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div><br>
+	<div class="row">
+		<div class="avisos col-md-6">
+      	<div class="divRound">
+					<span class="size20 ow"><b>Conversation club</b></span><hr><p>Atenção Mackenzista!</p><p>Você quer aperfeiçoar a língua inglesa? Venha participar do Conversation Club,&nbsp;uma oportunidade semanal e gratuita.&nbsp;Não perca esta chance, estamos esperando por você!<br>Início:&nbsp; 24 de agosto&nbsp; Todas as terças-feiras, até o dia&nbsp; 07 de dezembro&nbsp;<br>Horário: 17h15 às 18h45<br>Inscrições pelo link:&nbsp;<br>https://www.mackenzie.br/universidade/coi/educationusa/eventos</p><p>&nbsp;</p><hr><a href="https://www.mackenzie.br/universidade/coi/educationusa/eventos" target="_blank" class="btn btn-sm btn-danger">SAIBA MAIS</a> 
+      	</div><br>
+      	<div class="divRound">
+					<span class="size20 ow"><b>Calendário acadêmico 2021 discente republicado</b></span><hr><a href="http://www3.mackenzie.br/tia/arquivos/pdf/fbcd831a30b0199e9f7639f7985d1aa9_0.pdf" target="_blank" class="btn btn-sm btn-danger">SAIBA MAIS</a> 
+      	</div><br>
+      	<div class="divRound">
+					<span class="size20 ow"><b>Comunicado importante - fraude de boletos</b></span><hr><a href="http://www3.mackenzie.br/tia/arquivos/pdf/22.pdf" target="_blank" class="btn btn-sm btn-danger">SAIBA MAIS</a> 
+      	</div><br></div>
+		<div class="avisos col-md-6">
+      	<div class="divRound">
+					<span class="size20 ow"><b>Comissão própria de avaliação - cpa</b></span><hr><p>Prezados&nbsp; as&nbsp; &nbsp;alunos&nbsp; as&nbsp; &nbsp;dos cursos de Graduação Presencial da UPM,</p><p>Solicitamos sua avaliação para o curso, professores e UPM relativos a&nbsp;este semestre. Sua participação é confidencial e essencial para a UPM.</p><p>Para acessar a pesquisa clique em <strong>SAIBA MAIS</strong></p><p>&nbsp;</p><p>&nbsp;Agradecemos sua colaboração.</p><p>Atenciosamente,&nbsp;<br>Comissão Própria de Avaliação - CPA&nbsp;</p><hr><a href="https://forms.gle/N67FcYY4xV5zvTrh8" target="_blank" class="btn btn-sm btn-danger">SAIBA MAIS</a> 
+      	</div><br>
+      	<div class="divRound">
+					<span class="size20 ow"><b>Retirada - cartão tia</b></span><hr><p>Prezado(a) aluno(a),</p><p><br>Solicitamos que, caso ainda não tenha retirado seu cartão TIA, compareça na secretaria de sua Unidade Acadêmica para retirá-lo, assim que retornar às atividades acadêmicas presenciais, a partir do dia 19 de outubro de 2021.</p><p><br>O cartão TIA será seu passaporte de entrada e saída do campus, garantindo sua segurança, e também permitirá o empréstimo de livros e equipamentos de laboratórios.</p><p><br>Contamos com sua colaboração e desejamos um excelente retorno!</p><p><br>Relação de prédios e secretarias para retirada do cartão TIA em<strong> SAIBA MAIS</strong></p><hr><a href="http://www3.mackenzie.br/tia/arquivos/pdf/502bd614f1cf9044cdee7e26b32e6726_0.pdf" target="_blank" class="btn btn-sm btn-danger">SAIBA MAIS</a> 
+      	</div><br>
+      	<div class="divRound">
+					<span class="size20 ow"><b>Prorrogação do rec_2 semestre de 2021.</b></span><hr><p>Link:&nbsp;http://moodle.mackenzie.br/link/1wp</p><hr><a href="http://moodle.mackenzie.br/link/1wp" target="_blank" class="btn btn-sm btn-danger">SAIBA MAIS</a> 
+      	</div><br></div></div><div class="clear"></div>
+      </div>
+      
+    <div id="footer">
+      <div>
+        <a href="https://www.mackenzie.br/gerti/" target="_blank" class="fff">© 2021&nbsp;Instituto Presbiteriano Mackenzie</a>
+      </div>
+    </div>   
+  
+</body></html>

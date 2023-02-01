@@ -1,0 +1,213 @@
+@font-face {
+    font-family: 'MarketingScriptRegular';
+    src: url('fonts/MarketingScript-webfont.eot');
+    src: url('fonts/MarketingScript-webfont.svg#MarketingScriptRegular') format('svg'),
+		 url('fonts/MarketingScript-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/MarketingScript-webfont.woff') format('woff'),
+         url('fonts/MarketingScript-webfont.ttf') format('truetype');
+	font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'QuattrocentoSansRegular';
+    src: url('fonts/quattrocentosans-regular-webfont.eot');
+    src: url('fonts/quattrocentosans-regular-webfont.svg#QuattrocentoSansRegular') format('svg'),
+		 url('fonts/quattrocentosans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/quattrocentosans-regular-webfont.woff') format('woff'),
+         url('fonts/quattrocentosans-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Lobster14Regular';
+    src: url('fonts/lobster_1.4-webfont.eot');
+    src: url('fonts/lobster_1.4-webfont.svg#Lobster14Regular') format('svg'),
+		 url('fonts/lobster_1.4-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/lobster_1.4-webfont.woff') format('woff'),
+         url('fonts/lobster_1.4-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'GeosansLightRegular';
+    src: url('fonts/geosanslight-webfont.eot');
+	src: url('fonts/geosanslight-webfont.svg#GeosansLightRegular') format('svg'),
+    	url('fonts/geosanslight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/geosanslight-webfont.woff') format('woff'),
+         url('fonts/geosanslight-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'HeadlineOneHPLHS';
+    src: url('fonts/headoh__-webfont.eot');
+    src: url('fonts/headoh__-webfont.svg#HeadlineOneHPLHS') format('svg'),
+		 url('fonts/headoh__-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/headoh__-webfont.woff') format('woff'),
+         url('fonts/headoh__-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'LatoBoldItalic';
+    src: url('fonts/lato-bolditalic-webfont.eot');
+    src: url('fonts/lato-bolditalic-webfont.svg#LatoBoldItalic') format('svg'),
+		 url('fonts/lato-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/lato-bolditalic-webfont.woff') format('woff'),
+         url('fonts/lato-bolditalic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'QlassikMediumRegular';
+    src: url('fonts/qlassik_tb-webfont.eot');
+    src: url('fonts/qlassik_tb-webfont.svg#QlassikMediumRegular') format('svg'),
+		 url('fonts/qlassik_tb-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/qlassik_tb-webfont.woff') format('woff'),
+         url('fonts/qlassik_tb-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'DoradoHeadlineRegular';
+    src: url('fonts/doradoheadline-webfont.eot');
+    src: url('fonts/doradoheadline-webfont.svg#DoradoHeadlineRegular') format('svg'),
+		 url('fonts/doradoheadline-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/doradoheadline-webfont.woff') format('woff'),
+         url('fonts/doradoheadline-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+ 
+ 
+@font-face {
+    font-family: 'OgiremaBold';
+    src: url('fonts/ogiremabold-webfont.eot');
+    src: url('fonts/ogiremabold-webfont.svg#OgiremaBold') format('svg'),
+		 url('fonts/ogiremabold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ogiremabold-webfont.woff') format('woff'),
+         url('fonts/ogiremabold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+ @font-face {
+    font-family: 'CoolveticaRegular';
+    src: url('fonts/coolveticarg-webfont.eot') format("opentype");
+    src: url('fonts/coolveticarg-webfont.svg#CoolveticaRegular') format('svg'),
+		 url('fonts/coolveticarg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/coolveticarg-webfont.woff') format('woff'),
+         url('fonts/coolveticarg-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'DeckerRegular';
+    src: url('fonts/decker-webfont.eot') format("opentype");;
+    src: url('fonts/decker-webfont.svg#DeckerRegular') format('svg'),
+		 url('fonts/decker-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/decker-webfont.woff') format('woff'),
+         url('fonts/decker-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'DroidSansBold';
+    src: url('fonts/DroidSans-Bold-webfont.eot');
+    src: url('fonts/DroidSans-Bold-webfont.svg#DroidSansBold') format('svg')
+		 url('fonts/DroidSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/DroidSans-Bold-webfont.woff') format('woff'),
+         url('fonts/DroidSans-Bold-webfont.ttf') format('truetype');         
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.titTia {
+	font: 18px 'QuattrocentoSansRegular', Arial, sans-serif;
+	color:#FFF;
+	letter-spacing:1px;
+}
+
+
+.lobster {
+	font: 26px 'Lobster14Regular', Arial, sans-serif;
+	letter-spacing:1px;
+	text-shadow: 0px 0px 1px rgba(0,0,0,0);
+}
+
+
+.GeosansLightRegular {
+	font-family: 'GeosansLightRegular', Arial, sans-serif; 
+}
+
+
+.noticiasGerais {
+		font-family: 'LatoBoldItalic', Arial, sans-serif;
+}
+ 
+ 
+ 
+
+h1 { font-family: 'Quicksand', Arial, sans-serif; font-size:28px; font-weight:normal; color:#0473c1; font-smooth:always; text-shadow: 0 0 1px rgba(0,0,0,0.3);}
+h2 { font-family: 'Quicksand',Arial, sans-serif; font-weight:normal; font-size:22px; color:#777; }
+h3 { font-family: 'Quicksand',Arial, sans-serif; font-weight:normal; font-size:18px; color:#028ae9; } 
+h4 { font-family: 'Quicksand',Arial, sans-serif; font-weight:normal; font-size:16px; color:#333; } 
+h5 { font-family: 'Quicksand',Arial, sans-serif; font-size:16px; color:#5e6a61; margin-top:10px;  } 
+legend { text-align:center; font-family: 'Quicksand', Arial, sans-serif; font-stretch:normal; font-weight:normal; font-size:30px; color:#8FB209; font-smooth:auto; border-bottom:#EEE solid 1px; padding-bottom:10px; }
+.titulo { color:#282828; font-size:20px; line-height:30px; } 
+.titulo30 { font-family: 'LatoBoldItalic'; color:#fff; font-size:25px; line-height:30px;
+text-align:center; position:relative; top:-3px; text-shadow: 0px -1px #777;
+ } 
+
+
+a.linkPage { 
+	 margin:0 auto; font-family: 'LatoBoldItalic', Arial, sans-serif; font-size:22px; font-weight:normal; text-align:center; color:#B1B1B1; line-height:50px;
+}
+a.linkPage:hover {
+	color:#A2ADBC;
+} 
+
+
+a.linkGrande {
+	 margin:0 auto; font-family: 'DeckerRegular', Arial, sans-serif; font-size:22px; font-weight:normal; text-align:center; color:#A2ADBC;
+}
+a.linkGrande:hover {
+/*	text-decoration:underline; */
+}
+
+
+
+
+#color1 { color:#000; }
+#color2 { color:#fff; }
+#color3 { color:#666; }
+#color4 { color:#333; }
+#color5 { color:#999; }
+#color6 { color:#777; }
+

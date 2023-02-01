@@ -1,0 +1,46 @@
+form.cmxform {
+	font-size: 1.0em;
+	color: #333;
+}
+
+form.cmxform legend {
+	padding-left: 0;
+}
+
+form.cmxform legend, form.cmxform label {
+	color: #CCCCCC;
+}
+
+form.cmxform fieldset {
+	border-top: 1px solid #C9DCA6;
+}
+
+form.cmxform fieldset fieldset {
+	background: none;
+}
+
+form.cmxform fieldset p, form.cmxform fieldset fieldset {
+	padding: 5px 10px 7px;
+}
+
+form.cmxform label.error, label.error {
+	position:static;
+	padding:5px;
+	margin-left:5px;
+	color: #000000;
+	font-weight:bold;
+	font-size:12px;
+	font-style: italic;
+	background-color:#FFFF00;
+	background-position: 0px 0px;
+
+	}
+div.error { display: none; }
+
+
+input.error { border: 1px dotted red; background-color:#FFE8E9; }
+textarea.error { border: 1px dotted red; background-color:#FFE8E9; }
+form.cmxform .gray * { color: gray; }
+
+
+

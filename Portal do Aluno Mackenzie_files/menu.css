@@ -1,0 +1,269 @@
+@media(min-width:320px) and (max-width:480px){
+    #toggle,#toggle2{
+        display:none
+    }
+    body{
+        -webkit-animation:bugfix infinite 1s
+    }
+    @-webkit-keyframes bugfix{
+        from{
+            padding:0
+        }
+        to{
+            padding:0
+        }
+    }
+    .fa-bars{
+        color:#666;
+        font-size:20px;
+        position:relative;
+        top:35px;
+        left:20px
+    }
+    .menu{
+        background:#fff;
+        border:1px solid #e9e9e9
+    }
+    .menu2{
+        background:#fff;
+        border:1px solid #e9e9e9;
+        margin-top:-6px
+    }
+    .menu2,.menu2>li,.menu2>li>a{
+        height:auto
+    }
+    .menu2>li>a{
+        padding:15px 15px
+    }
+    .toggle:after{
+        content:'ABRIR MENU PRINCIPAL';
+        display:block;
+        width:100% !important;
+        border:1px solid #e9e9e9;
+        background:#fff;
+        text-align:center !important;
+        font-size:16px;
+        color:#666;
+        padding:10px 0 10px 60px;
+        -webkit-border-radius:5px;
+        border-radius:5px;
+        -webkit-transition:all .15s linear;
+        -moz-transition:all .15s linear;
+        -o-transition:all .15s linear;
+        transition:all .15s linear;
+        -moz-box-shadow:inset 0 1px 0 0 #fff;
+        -webkit-box-shadow:inset 0 1px 0 0 #fff;
+        box-shadow:inset 0 1px 0 0 #fff;
+        background:-webkit-gradient(linear,left top,left bottom,color-stop(0.05,#ededed),color-stop(1,#dfdfdf));
+        background:-moz-linear-gradient(center top,#ededed 5%,#dfdfdf 100%);
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed',endColorstr='#dfdfdf');
+        background-color:#ededed;
+        text-indent:0;
+        border:1px solid #dcdcdc;
+        display:inline-block;
+        text-shadow:1px 1px 0 #fff
+    }
+    .toggle:hover:after{
+        background:#d6d6d6
+    }
+    #toggle:checked+.toggle:after{
+        content:'FECHAR MENU PRINCIPAL'
+    }
+    .toggle2:after{
+        content:'MAIS OPÇÕES';
+        display:block;
+        width:100%;
+        background:#fff;
+        -webkit-border-radius:2px;
+        border-radius:2px;
+        text-align:center !important;
+        font-size:12px;
+        color:#333;
+        padding:5px 0 5px 0;
+        border:#e9e9e9 1px solid;
+        -webkit-transition:all .15s linear;
+        -moz-transition:all .15s linear;
+        -o-transition:all .15s linear;
+        transition:all .15s linear
+    }
+    .toggle2:hover:after{
+        background:#d6d6d6
+    }
+    #toggle2:checked+.toggle2:after{
+        content:'MAIS OPÇÕES'
+    }
+    .menu{
+        display:none;
+        opacity:0;
+        width:99%;
+        position:relative;
+        left:1px;
+        height:200px !important;
+        overflow-x:hidden;
+        top:-10px
+    }
+    .menu>li{
+        width:115%;
+        margin:0
+    }
+    .menu>li>a{
+        width:100%;
+        text-decoration:none;
+        -webkit-box-sizing:border-box;
+        -moz-box-sizing:border-box;
+        box-sizing:border-box
+    }
+    .menu2{
+        display:none;
+        opacity:0;
+        width:99%;
+        position:relative;
+        left:1px;
+        height:200px !important;
+        overflow-x:hidden
+    }
+    .menu2>li{
+        width:115%;
+        margin:0
+    }
+    .menu2>li>a{
+        width:100%;
+        text-decoration:none;
+        -webkit-box-sizing:border-box;
+        -moz-box-sizing:border-box;
+        box-sizing:border-box
+    }
+    .toggle{
+        display:block;
+        position:relative;
+        cursor:pointer;
+        -webkit-touch-callout:none;
+        -webkit-user-select:none;
+        user-select:none
+    }
+    #toggle:checked ~ .menu{
+        display:block;
+        opacity:1
+    }
+    .toggle2{
+        display:block;
+        position:relative;
+        cursor:pointer;
+        -webkit-touch-callout:none;
+        -webkit-user-select:none;
+        user-select:none
+    }
+    #toggle2:checked ~ .menu2{
+        display:block;
+        opacity:1
+    }
+    .toggle2:after{
+        text-align:center;
+        width:100%
+    }
+    .menu>li{
+        list-style:none;
+        float:left
+    }
+    .menu2>li{
+        list-style:none;
+        float:left
+    }
+    .menu>li>a{
+        border-bottom:1px solid #e9e9e9
+    }
+    .menu2>li>a{
+        border-bottom:1px solid #e9e9e9
+    }
+    .menu>li>a{
+        width:100%;
+        padding:15px;
+        text-align:left;
+        display:inline-block;
+        text-decoration:none;
+        font-weight:bold;
+        font-size:18px;
+        line-height:1;
+        -webkit-box-sizing:border-box;
+        -moz-box-sizing:border-box;
+        box-sizing:border-box;
+        -webkit-transition:all .15s linear;
+        -moz-transition:all .15s linear;
+        -o-transition:all .15s linear;
+        transition:all .15s linear;
+        color:#e4022d;
+    }
+    .menu2>li>a{
+        width:100%;
+        text-align:left;
+        padding:15px;
+        display:inline-block;
+        text-decoration:none;
+        font-weight:bold;
+        font-size:18px;
+        line-height:1;
+        -webkit-box-sizing:border-box;
+        -moz-box-sizing:border-box; 
+        box-sizing:border-box;
+        -webkit-transition:all .15s linear;
+        -moz-transition:all .15s linear;
+        -o-transition:all .15s linear;
+        transition:all .15s linear;
+        color:#e4022d;
+    }
+    .menu>li>a:hover,.menu>li>a:focus,.menu2>li>a:hover,.menu2>li>a:focus{
+        background:#f2f2f2;
+        box-shadow:inset 5px 0 #51c1f1;
+        padding:15px 15px 15px 25px
+    }
+    .toggle{
+        z-index:2
+    }
+    .toggle2{
+        z-index:2
+    }
+}
+@media(min-width:481px){
+    #toggle,.toggle{
+        display:none
+    }
+    #toggle2,.toggle2{
+        display:none
+    }
+    .menu{
+        margin-top:-6px
+    }
+    .menu>li>a{
+        padding:10px;
+        display:inline-block;
+        font-weight:bold;
+        font-size:18px;
+        line-height:1;
+        color:#e4022d;
+    }
+    .clear{
+        clear:both
+    }
+    .nav{
+        width:100%;
+        text-align:center
+    }
+    .menu2>li>a{
+        font-size:14px;
+        color:#333;
+        font-weight:bold;
+        padding-right:5px;
+        padding-left:3px;
+				text-transform:lowercase;
+    }
+}
+.menu li,.menu2 li{
+    list-style:none;
+    display:inline-block
+}
+nav{
+    margin-bottom:-20px !important
+}
+ul,menu,dir{
+    -webkit-padding-start:0 !important
+}
